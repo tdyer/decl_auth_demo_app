@@ -1,15 +1,46 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  title: MyString
-  user_id: 1
-  conference: one
-  abstract: MyText
-  start: 2008-08-15 11:00:57
-
-two:
-  title: MyString
-  user_id: 1
-  conference: one
-  abstract: MyText
-  start: 2008-08-15 11:00:57
+--- 
+talks_001: 
+  abstract: "Fixing vulnerabilities does not mean your Rails app is secure: Applications have their own security objectives, which are as hard to nail down as other requirements. Classical security engineering can lead to an intrusion of waterfall thinking. We discuss how to elicit actual security requirements in a small-to-medium enterprise and how to map these into actionable elements of a Rails app."
+  conference_id: "1"
+  created_at: "2008-08-15 10:34:04"
+  id: "2"
+  start: "2008-09-04 14:30:00"
+  title: "From Rails Security to Application Security"
+  updated_at: "2008-08-15 10:34:04"
+  user_id: "3"
+talks_002: 
+  abstract: "None yet"
+  conference_id: "2"
+  created_at: "2008-08-18 13:17:40"
+  id: "3"
+  start: "2009-09-04 13:17:00"
+  title: "Next Generation App Security"
+  updated_at: "2008-08-18 13:17:40"
+  user_id: "3"
+talks_003: 
+  abstract: "Using computer science, you can measure application quality based on an assortment of criteria - likewise for Ruby on Rails applications. Learn about gems and methods for measuring code coverage, cyclomatic complexity, coupling, cohesion, and how you can use them to improve your Ruby on Rails applications."
+  conference_id: "1"
+  created_at: "2008-08-29 08:56:14"
+  id: "4"
+  start: "2008-09-03 11:35:00"
+  title: "Rails Software Metrics"
+  updated_at: "2008-08-29 09:00:44"
+  user_id: "6"
+talks_004: 
+  abstract: "As our applications have spilled from the server across the wire to the web tier, we increasingly must debug and test in the browser. This session covers debugging and testing tools for clients, JavaScript, and Ajax."
+  conference_id: "1"
+  created_at: "2008-08-29 09:02:39"
+  id: "5"
+  start: "2008-09-03 11:35:00"
+  title: "Debugging & Testing the Web Tier"
+  updated_at: "2008-08-29 09:02:39"
+  user_id: "7"
+talks_005: 
+  abstract: "Online applications have one major drawback when you are offline: They simply do not work. With Google Gears / AIR it is possible to add offline support to your application and make it fully functional while in the plane or somewhere in the wild. This is demonstrated with the mind mapping application \"MindMeister\"."
+  conference_id: "1"
+  created_at: "2008-08-29 09:03:33"
+  id: "6"
+  start: "2008-09-03 14:30:00"
+  title: "Offline Rails Applications with Google Gears and Adobe AIR"
+  updated_at: "2008-08-29 09:03:33"
+  user_id: "9"

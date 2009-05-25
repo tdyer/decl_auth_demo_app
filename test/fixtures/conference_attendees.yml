@@ -1,0 +1,13 @@
+--- 
+conference_attendees_001: 
+  conference_id: "1"
+  id: "3"
+  user_id: "2"
+conference_attendees_002: 
+  conference_id: "1"
+  id: "5"
+  user_id: "5"
+conference_attendees_003: 
+  conference_id: "2"
+  id: "15"
+  user_id: "3"
